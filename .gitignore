@@ -1,3 +1,4 @@
 # Directory
 .vscode
 cpp/build/
+js/node_modules/
