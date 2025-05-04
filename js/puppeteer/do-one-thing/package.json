@@ -11,6 +11,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.6.3",
   "dependencies": {
+    "do-one-thing": "file:",
     "puppeteer": "^24.8.0"
   }
 }
