@@ -11,6 +11,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "dependencies": {
+    "cli-bot": "file:",
     "puppeteer": "^24.8.0"
   }
 }
