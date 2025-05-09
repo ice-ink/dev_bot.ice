@@ -11,6 +11,9 @@ importers:
       '@types/node':
         specifier: ^22.15.16
         version: 22.15.16
+      '@types/puppeteer':
+        specifier: ^7.0.4
+        version: 7.0.4(typescript@5.8.3)
       puppeteer:
         specifier: ^24.8.1
         version: 24.8.1(typescript@5.8.3)
@@ -67,6 +70,10 @@ packages:
 
   '@types/node@22.15.16':
     resolution: {integrity: sha512-3pr+KjwpVujqWqOKT8mNR+rd09FqhBLwg+5L/4t0cNYBzm/yEiYGCxWttjaPBsLtAo+WFNoXzGJfolM1JuRXoA==}
+
+  '@types/puppeteer@7.0.4':
+    resolution: {integrity: sha512-ja78vquZc8y+GM2al07GZqWDKQskQXygCDiu0e3uO0DMRKqE0MjrFBFmTulfPYzLB6WnL7Kl2tFPy0WXSpPomg==}
+    deprecated: This is a stub types definition. puppeteer provides its own type definitions, so you do not need this installed.
 
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
@@ -533,6 +540,16 @@ snapshots:
   '@types/node@22.15.16':
     dependencies:
       undici-types: 6.21.0
+
+  '@types/puppeteer@7.0.4(typescript@5.8.3)':
+    dependencies:
+      puppeteer: 24.8.1(typescript@5.8.3)
+    transitivePeerDependencies:
+      - bare-buffer
+      - bufferutil
+      - supports-color
+      - typescript
+      - utf-8-validate
 
   '@types/yauzl@2.10.3':
     dependencies:

@@ -1,3 +1,17 @@
+# TS
+
+## Commands
+
+ts command
+
+```
+npx ts-node file.ts
+```
+
+## DeepSeek
+
+*Output 01*
+
 Puppeteer with TypeScript: Key Insights
 
 Yes, Puppeteer is fully compatible with TypeScript, and using TypeScript with Puppeteer provides significant advantages over plain JavaScript.

@@ -12,6 +12,7 @@
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
     "@types/node": "^22.15.16",
+    "@types/puppeteer": "^7.0.4",
     "puppeteer": "^24.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
