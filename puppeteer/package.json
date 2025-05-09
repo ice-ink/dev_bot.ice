@@ -1,0 +1,8 @@
+{
+	"name": "puppeteer-workspace",
+    "private": true,
+    "version": "1.0.0"
+	"dependencies": {
+		"puppeteer": "^24.8.2"
+	}
+}
