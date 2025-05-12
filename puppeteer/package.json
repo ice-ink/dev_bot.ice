@@ -1,16 +1,18 @@
 {
-  "name": "puppeteer",
+  "name": "puppeteer-root",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.6.3",
+  "type": "module",
+  "workspaces": [
+    "js/*",
+    "ts/*"
+  ],
   "dependencies": {
-    "puppeteer": "^24.8.2"
+    "puppeteer": "^24.8.2",
+    "puppeteer-root": "file:"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
