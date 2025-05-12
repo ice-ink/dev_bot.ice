@@ -22,7 +22,13 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  js/clock-bot: {}
+  js/cli-bot: {}
+
+  js/clock-bot:
+    dependencies:
+      clock-bot:
+        specifier: 'file:'
+        version: 'link:'
 
   js/js-bot:
     dependencies:
