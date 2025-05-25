@@ -1,4 +1,5 @@
 import puppeteer from 'puppeteer';
+import fs from 'fs';
 
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
