@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
 (async () => {
   // Launch browser with visible window
@@ -10,11 +10,11 @@ const puppeteer = require('puppeteer');
 
   const page = await browser.newPage();
   
-  // Your bot actions here
-  await page.goto('https://example.com');
-  await page.type('#search', 'Puppeteer bot');
-  await page.click('#submit');
-  
-  // Keep browser open for inspection
-  // await browser.close();
+  // Wait for the selector to appear (timeout after 5 seconds)
+  await page.waitForSelector('#search', { timeout: 5000 });
+
+  // Now interact with the element
+  await page.type('#search', 'Hello, Puppeteer!');
+
+  await browser.close();
 })();
